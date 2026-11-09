@@ -1,0 +1,18 @@
+# Secrets: never commit
+.env
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Local data created when you run the lessons
+memory_store/
+memory_store_demo/
+*.db
+
+# Not part of this project
+*.zip
+
+# Editor / OS
+.DS_Store

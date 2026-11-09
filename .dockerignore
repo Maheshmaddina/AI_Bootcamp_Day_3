@@ -1,0 +1,8 @@
+# Never put secrets or local junk into the image
+.env
+.venv/
+__pycache__/
+*.zip
+memory_store/
+memory_store_demo/
+*.db
